@@ -1,3 +1,6 @@
+.PHONY: mod
+mod:
+	go mod tidy
 .PHONY: lint
 lint:
 	golangci-lint run -E whitespace -E wsl -E wastedassign -E unconvert -E tparallel -E thelper -E stylecheck -E prealloc \
@@ -10,3 +13,6 @@ install:
 .PHONY: build
 build:
 	go build -o alieninvasion ./cmd/alieninvasion/main.go
+.PHONY: test
+test:
+	go test -v -count=1 ./simulation
