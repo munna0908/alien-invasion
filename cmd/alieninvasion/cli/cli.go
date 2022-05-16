@@ -86,7 +86,7 @@ func Execute(closeCh chan os.Signal) {
 	}
 
 	fmt.Println("*****************************************")
-	fmt.Println("Aliens started invasion ...!!! ")
+	fmt.Println("Aliens Started Invasion ...!!! ")
 	fmt.Println("*****************************************")
 
 	// Start the simulation

@@ -92,7 +92,7 @@ func BuildMap(filePath string) (types.World, []*types.City, error) {
 // PrintMap prints the leftout cities
 func PrintMap(worldMap types.World) {
 	fmt.Println("*****************************************")
-	fmt.Println("Cities left After Invasion")
+	fmt.Println("Cities Left After Invasion")
 	fmt.Println("*****************************************")
 
 	for _, city := range worldMap {
