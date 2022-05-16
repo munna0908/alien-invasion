@@ -12,7 +12,7 @@ var (
 	ErrNoNeighbours     = errors.New("no neighbour")
 )
 
-//Direction in an integer represetation of a real world direction
+//Direction in an integer representation of a real world direction
 type Direction int
 
 const (
