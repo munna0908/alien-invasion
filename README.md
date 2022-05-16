@@ -30,7 +30,7 @@ Start the program by executing following command
 ```bash
 ./alieninvasion -aliens <aliens_count> -iterations <max_iterations> -input-file <file_path>
 ```
-In order to stop the program while invasion is in progress,Hit Ctrl-C. This is will print the left over cities and gracefully close the program 
+In order to stop excution while invasion is in progress,Hit Ctrl-C. This will print the left over cities and gracefully close the program 
 
 Example:
 ```bash
