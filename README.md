@@ -54,6 +54,6 @@ make test
 ```
 
 ## Assumptions
-- There are no more than 2x aliens of the number of cities in the map
+- Total No.Of aliens shoulde be <= 2*(No.of cities). 
 - No more than two aliens can occupy a city, if a third alien attempts to enter it will be denied.
 - Every city should have aleast one neighbour
